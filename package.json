@@ -6,6 +6,7 @@
     "prettier": "prettier --write \"src/**/*.{js,jsx,mjs,ts,tsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx,mjs,ts,tsx}\""
   },
+  "engines" : { "node" : ">= 11" },
   "jest": {
     "preset": "react-zeroconfig",
     "setupFiles": [
