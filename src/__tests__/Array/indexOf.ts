@@ -6,7 +6,6 @@ describe('indexOf()', () => {
   //  - 'fromIndex' is an optional param and the default value is 0
   //  - If the provided index is negative, the array is still searched from front to back.
   //  - If the provided index is 0, then the whole array will be searched.
-  // Also,
   it("returns the index of the target element in the array or return -1 if it's not found", () => {
     const targetArray: Array<number> = [2, 9, 9];
     expect(targetArray.indexOf(2)).toEqual(0);
